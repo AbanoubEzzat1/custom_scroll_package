@@ -79,6 +79,7 @@ flutter pub get
 
 Usage
 Here's an example of how to use the CustomScrollbar widget in your Flutter app:
+```dart
 import 'package:flutter/material.dart';
 import 'package:custom_scroll_package/custom_scroll_package.dart';
 
@@ -99,7 +100,7 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
+```
 Parameters
 controller: (Optional) A ScrollController to manage the scroll behavior.
 child: The widget that will be placed inside the scroll view.
