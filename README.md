@@ -3,7 +3,6 @@
 A flexible and customizable scrollbar widget designed for Flutter web and mobile applications, supporting multiple input devices such as touch, mouse, and stylus. This package provides an enhanced Scrollbar for smooth and responsive scrolling across platforms.
 
 # Features
-=======
 Custom Scrollbar Package
 A flexible and customizable scrollbar widget designed for Flutter web and mobile applications, supporting multiple input devices such as touch, mouse, and stylus. This package provides an enhanced Scrollbar for smooth and responsive scrolling across platforms.
 
@@ -72,7 +71,6 @@ class MyCustomScrollBehavior extends MaterialScrollBehavior {
 }
 ```
 
-=======
 dependencies:
   custom_scroll_package: ^1.0.0
 
