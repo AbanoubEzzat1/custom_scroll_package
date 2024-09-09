@@ -1,14 +1,13 @@
-<<<<<<< HEAD
+
 # Custom Scrollbar Package
 A flexible and customizable scrollbar widget designed for Flutter web and mobile applications, supporting multiple input devices such as touch, mouse, and stylus. This package provides an enhanced Scrollbar for smooth and responsive scrolling across platforms.
 
 # Features
-=======
 Custom Scrollbar Package
 A flexible and customizable scrollbar widget designed for Flutter web and mobile applications, supporting multiple input devices such as touch, mouse, and stylus. This package provides an enhanced Scrollbar for smooth and responsive scrolling across platforms.
 
 Features
->>>>>>> 6354351cd2ddb2ee979b32467347383f5602298a
+
 Customizable scrollbar: Adjust thumb visibility, thickness, and radius.
 Supports multiple input devices: touch, mouse, stylus, etc.
 Cross-platform compatibility: Works seamlessly on both Flutter web and mobile platforms.
@@ -16,7 +15,7 @@ Easy integration: Simple to add to any existing scroll view.
 Installation
 To use this package, add the following line to the dependencies section of your pubspec.yaml file:
 
-<<<<<<< HEAD
+
 ```yaml
 dependencies:
   custom_scroll_package: ^1.0.0
@@ -72,7 +71,6 @@ class MyCustomScrollBehavior extends MaterialScrollBehavior {
 }
 ```
 
-=======
 dependencies:
   custom_scroll_package: ^1.0.0
 
@@ -81,6 +79,7 @@ flutter pub get
 
 Usage
 Here's an example of how to use the CustomScrollbar widget in your Flutter app:
+```dart
 import 'package:flutter/material.dart';
 import 'package:custom_scroll_package/custom_scroll_package.dart';
 
@@ -101,7 +100,7 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
+```
 Parameters
 controller: (Optional) A ScrollController to manage the scroll behavior.
 child: The widget that will be placed inside the scroll view.
@@ -112,7 +111,7 @@ radius: (Optional) Configures the radius of the scrollbar corners. The default i
 
 Custom Scroll Behavior
 The package introduces a custom scroll behavior to ensure compatibility with different input devices, such as mouse, touch, and stylus:
-
+```dart
 class MyCustomScrollBehavior extends MaterialScrollBehavior {
   @override
   Set<PointerDeviceKind> get dragDevices => {
@@ -122,6 +121,5 @@ class MyCustomScrollBehavior extends MaterialScrollBehavior {
         PointerDeviceKind.unknown,
       };
 }
+```
 
-
->>>>>>> 6354351cd2ddb2ee979b32467347383f5602298a

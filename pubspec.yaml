@@ -1,6 +1,6 @@
 name: custom_scroll_package
-description: "A custom scrollbar with SingleChildScrollView that works for web, mobile and desktop."
-version: 0.0.1
+description: "A customizable scrollbar package for Flutter."
+version: 0.0.3
 homepage: https://github.com/AbanoubEzzat1/custom_scroll_package
 
 environment:
