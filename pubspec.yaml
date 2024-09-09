@@ -1,7 +1,7 @@
 name: custom_scroll_package
 description: "A custom scrollbar with SingleChildScrollView that works for web, mobile and desktop."
 version: 0.0.1
-homepage:
+homepage: https://github.com/AbanoubEzzat1/custom_scroll_package
 
 environment:
   sdk: '>=3.3.4 <4.0.0'

@@ -1,1 +1,18 @@
-TODO: Add your license here.
+
+---
+
+### `CHANGELOG.md`
+
+```md
+## 1.0.0 - Initial Release
+
+### Added
+- Custom scrollbar widget `CustomScrollbar` for Flutter web and mobile.
+- Support for multiple pointer devices: touch, mouse, and stylus.
+- Configurable parameters for `thumbVisibility`, `thickness`, and `radius`.
+- Optional `ScrollController` support.
+- Smooth scrolling with customizable `scrollDirection` (vertical or horizontal).
+- Default values provided for easy usage.
+
+### Documentation
+- Added usage examples and detailed parameters explanation.
