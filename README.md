@@ -111,7 +111,7 @@ radius: (Optional) Configures the radius of the scrollbar corners. The default i
 
 Custom Scroll Behavior
 The package introduces a custom scroll behavior to ensure compatibility with different input devices, such as mouse, touch, and stylus:
-
+```dart
 class MyCustomScrollBehavior extends MaterialScrollBehavior {
   @override
   Set<PointerDeviceKind> get dragDevices => {
@@ -121,6 +121,5 @@ class MyCustomScrollBehavior extends MaterialScrollBehavior {
         PointerDeviceKind.unknown,
       };
 }
-
-
+```
 
