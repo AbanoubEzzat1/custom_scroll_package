@@ -2,22 +2,21 @@ Custom Scrollbar Package
 A flexible and customizable scrollbar widget designed for Flutter web and mobile applications, supporting multiple input devices such as touch, mouse, and stylus. This package provides an enhanced Scrollbar for smooth and responsive scrolling across platforms.
 
 Features
-Customizable scrollbar (thumb visibility, thickness, and radius).
+Customizable scrollbar: Adjust thumb visibility, thickness, and radius.
 Supports multiple input devices: touch, mouse, stylus, etc.
-Works seamlessly on both Flutter web and mobile platforms.
-Easy integration with any scroll view.
-
+Cross-platform compatibility: Works seamlessly on both Flutter web and mobile platforms.
+Easy integration: Simple to add to any existing scroll view.
 Installation
 To use this package, add the following line to the dependencies section of your pubspec.yaml file:
+
 dependencies:
   custom_scroll_package: ^1.0.0
 
-Then, install the package by running:
+Then install the package by running:
 flutter pub get
 
 Usage
 Here's an example of how to use the CustomScrollbar widget in your Flutter app:
-
 import 'package:flutter/material.dart';
 import 'package:custom_scroll_package/custom_scroll_package.dart';
 
@@ -48,7 +47,7 @@ thickness: (Optional) Sets the thickness of the scrollbar thumb. The default is 
 radius: (Optional) Configures the radius of the scrollbar corners. The default is Radius.circular(8.0).
 
 Custom Scroll Behavior
-The package also introduces a custom scroll behavior to ensure compatibility with different input devices, such as mouse, touch, and stylus:
+The package introduces a custom scroll behavior to ensure compatibility with different input devices, such as mouse, touch, and stylus:
 
 class MyCustomScrollBehavior extends MaterialScrollBehavior {
   @override
@@ -59,4 +58,5 @@ class MyCustomScrollBehavior extends MaterialScrollBehavior {
         PointerDeviceKind.unknown,
       };
 }
+
 
